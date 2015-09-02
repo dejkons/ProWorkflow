@@ -1,7 +1,6 @@
 <?php
 /**
 * Creator: Dejan Adamovic
-* Company: TRS Swiss Production, Clover Technologies Group
 * Date: 28 Jun 2013
 * Version: 1.0
 * Description: ProworkFlow project management tool API class - provides essential functions for work with this API 
