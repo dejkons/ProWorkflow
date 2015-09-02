@@ -22,31 +22,6 @@ class Proworkflow {
      * 
      * @param mixed $arrayValues
      * @return mixed array     Example array("ProjectID" => ID, "ProjectNumber" => ProjNumber);
-     * 
-     * $arrayValues example
-     * $arrayValues = array(
-              "jobassignedtostaff"         => array(11),
-              "jobmanager"                 => 11,
-              "jobassignedtocontractors"   => array(),
-              "jobassignedtoclients"       => array(),
-              "jobtotaltimeallocated"      => 10, 
-              "jobdatestart"               => "22-Jun-2013",
-              "jobdatedue"                 => "02-Aug-2013",
-              "jobclientid"                => 12,
-              "jobdescription"             => "Job description",
-              "jobnumber"                  => "",
-              "jobuseautonumber"           => "",
-              "jobtitle"                   => "Job title new",
-              "jobcategoryid"              => 6,
-              "jobinvoiced"                => "no",
-              "jobpaid"                    => "no",
-              "jobaccountedfor"            => "no",
-              "jobclientlogin"             => "yes",
-              "jobquotedprice"             => "135.00",
-              "jobinvoicedprice"           => 78,
-              "jobnotes"                   => "Sample notes",
-              "jobpriority"                => 3
-             );
      */
      public function insertJob($arrayValues) {
            
@@ -156,18 +131,6 @@ class Proworkflow {
      * 
      * @param mixed $arrayValues
      * @return mixed array     Example array("ProjectID" => ID, "ProjectMessage" => Message);
-     * 
-     * $arrayValues example
-     * $arrayValues = array(
-              "jobrequestto"               => array(11),
-              "jobrequestedby"             => array(12),
-              "jobdatestart"               => "22-Jun-2013",
-              "jobdatedue"                 => "02-Aug-2013",
-              "jobclientid"                => 12,
-              "jobdescription"             => "Job description with approval 3",
-              "jobtitle"                   => "Job title new 3",
-              "jobbudget"                  => 100.00
-             );
      */
      public function insertJobRequest($arrayValues) {
            
@@ -254,14 +217,6 @@ class Proworkflow {
      * 
      * @param mixed $arrayValues
      * @return mixed array     Example array("FileID" => ID);
-     * 
-     * $arrayValues example
-     * $arrayValues = array(
-               "jobid"        => $projectId,
-               "foldername"   => "Test folder 3",
-               "publicfolder" => 1,
-               "folderassginedto"  => array(11)
-              );
      */
      public function uploadFile($arrayValues) {
            
@@ -323,14 +278,6 @@ class Proworkflow {
      * 
      * @param mixed $arrayValues
      * @return mixed array     Example array("FileID" => ID);
-     * 
-     * $arrayValues example
-     * $arrayValues = array(
-               "jobid"        => $projectId,
-               "foldername"   => "Test folder 3",
-               "publicfolder" => 1,
-               "folderassginedto"  => array(11)
-              );
      */
      public function createFolder($arrayValues) {
            
